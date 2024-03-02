@@ -1,9 +1,9 @@
-package Map;
+package Collection_Data.Map;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Task1 {
+public class Map1 {
     public static void main(String[] args) {
         //        !!!Массив связных списков!!!
         Map<Integer, String> map= new HashMap<>();

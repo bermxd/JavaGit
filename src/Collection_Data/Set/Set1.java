@@ -1,11 +1,11 @@
-package Set;
+package Collection_Data.Set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Task1 {
+public class Set1 {
     public static void main(String[] args) {
         Set<String> hashSet = new HashSet<>();
         Set<String> linkedHashSet = new LinkedHashSet<>();

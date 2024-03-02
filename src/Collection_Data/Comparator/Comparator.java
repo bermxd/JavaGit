@@ -1,11 +1,10 @@
-package Comparator;
+package Collection_Data.Comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-public class Task1 {
+public class Comparator {
     public static void main(String[] args) {
         List<String> animals = new ArrayList<>();
 
@@ -27,7 +26,7 @@ public class Task1 {
         numbers.add(500);
         numbers.add(100);
 
-        Collections.sort(numbers, new Comparator<Integer>() { // анонимный класс ввместо создания полноценного класса для animals
+        Collections.sort(numbers, new java.util.Comparator<Integer>() { // анонимный класс ввместо создания полноценного класса для animals
             @Override
             public int compare(Integer o1, Integer o2) {
                 if (o1 > o2){
@@ -43,15 +42,15 @@ public class Task1 {
 
 
 
-        List<Person> people = new ArrayList<>();
+        List<Collection_Data.Comparator.Person> people = new ArrayList<>();
 
-        people.add(new Person(3, "Mike"));
-        people.add(new Person(2, "Katy"));
-        people.add(new Person(1, "Bob"));
+        people.add(new Collection_Data.Comparator.Person(3, "Mike"));
+        people.add(new Collection_Data.Comparator.Person(2, "Katy"));
+        people.add(new Collection_Data.Comparator.Person(1, "Bob"));
 
-        Collections.sort(people, new Comparator<Person>() {
+        Collections.sort(people, new java.util.Comparator<Collection_Data.Comparator.Person>() {
             @Override
-            public int compare(Person o1, Person o2) {
+            public int compare(Collection_Data.Comparator.Person o1, Collection_Data.Comparator.Person o2) {
                 if (o1.getId() > o2.getId()){
                     return 1;
                 } else if (o1.getId() < o2.getId()) {
@@ -67,7 +66,7 @@ public class Task1 {
     }
 }
 
-class StringLengthComarator implements Comparator<String> {
+class StringLengthComarator implements java.util.Comparator<String> {
 
     @Override
     public int compare(String o1, String o2) {

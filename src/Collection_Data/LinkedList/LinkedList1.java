@@ -1,10 +1,10 @@
-package LinkedList;
+package Collection_Data.LinkedList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Task1 {
+public class LinkedList1 {
     public static void main(String[] args) {
         List<Integer> linkedList = new LinkedList<>();
         List<Integer> arrayList = new ArrayList<>();

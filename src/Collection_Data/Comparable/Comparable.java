@@ -1,8 +1,9 @@
-package Comparable;
+package Collection_Data.Comparable;
 
 import java.util.*;
+import java.util.ArrayList;
 
-public class Task1 {
+public class Comparable {
     public static void main(String[] args) {
         List<Person> peopleList = new ArrayList<>();
         Set<Person> peopleSet = new TreeSet<>();
@@ -24,7 +25,7 @@ public class Task1 {
 
 }
 
-class Person implements Comparable<Person>{
+class Person implements java.lang.Comparable<Person> {
     private int id;
     private String name;
 
@@ -53,8 +54,8 @@ class Person implements Comparable<Person>{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return id == person.id && Objects.equals(name, person.name);
+        Person person1 = (Person) o;
+        return id == person1.id && Objects.equals(name, person1.name);
     }
 
     @Override

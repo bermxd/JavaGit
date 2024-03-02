@@ -1,9 +1,9 @@
-package Queue;
+package Collection_Data.Queue;
 
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class Task2 {
+public class Queue1 {
     public static void main(String[] args) {
         Person person1 = new Person(1);
         Person person2 = new Person(2);

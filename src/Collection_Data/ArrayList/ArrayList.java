@@ -1,11 +1,10 @@
-package ArrayList;
+package Collection_Data.ArrayList;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Task1 {
+public class ArrayList {
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new java.util.ArrayList<>();
         for (int i = 0; i < 10; i++){
             arrayList.add(i);
         }
