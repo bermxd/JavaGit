@@ -1,8 +1,8 @@
-package HashcodeEquals;
+package Collection_Data.HashcodeEquals;
 
 import java.util.*;
 
-public class Task1 {
+public class HashcodeEquals {
     public static void main(String[] args) {
         Map<Person, String> map = new HashMap<>();
         Set<Person> set = new HashSet<>();

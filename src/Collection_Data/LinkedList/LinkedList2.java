@@ -1,6 +1,6 @@
-package LinkedList;
+package Collection_Data.LinkedList;
 
-public class Task2 {
+public class LinkedList2 {
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.add(1);

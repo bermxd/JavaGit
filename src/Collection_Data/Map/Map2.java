@@ -1,19 +1,19 @@
-package Map;
+package Collection_Data.Map;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Task2 {
+public class Map2 {
     public static void main(String[] args) {
-//        Map<String,String> translations = new HashMap<>();
+//        Collection_Data.Map<String,String> translations = new HashMap<>();
 //
 //        translations.put("кошка", "cat");
 //        translations.put("собака","dog");
 //        translations.put("слон", "elephant");
 //
-//        for (Map.Entry<String,String> entry : translations.entrySet()){
+//        for (Collection_Data.Map.Entry<String,String> entry : translations.entrySet()){
 //            System.out.println(entry.getKey() + " : " + entry.getValue());
 
         Map<Integer, String> hashMap = new HashMap<>(); // Внутри не гарантируется никакого порядка
